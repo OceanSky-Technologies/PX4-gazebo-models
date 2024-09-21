@@ -1,7 +1,7 @@
 <sdf version='1.9'>
   <world name='baylands'>
     <physics type="ode">
-      <max_step_size>0.004</max_step_size>
+      <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
       <real_time_update_rate>250</real_time_update_rate>
     </physics>
@@ -164,9 +164,9 @@
       <ambient>0.8 0.5 1</ambient>
       <grid>false</grid>
       <sky>
-        <clouds>true</clouds>
+        <clouds>false</clouds>
       </sky>
-      <shadows>1</shadows>
+      <shadows>0</shadows>
     </scene>
     <light name='sunUTC' type='directional'>
       <pose>0 0 500 0 -0 0</pose>
