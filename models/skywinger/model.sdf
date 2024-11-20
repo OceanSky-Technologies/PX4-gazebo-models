@@ -51,7 +51,7 @@
         </material>
       </visual>
       <visual name='m0'>
-        <pose>-0.28 0.48 0.13 0 0.261799 0</pose>
+        <pose>-0.28 0.48 0.13 0 0.523599 0</pose>
         <geometry>
           <cylinder>
             <length>0.035</length>
@@ -142,7 +142,7 @@
       </sensor>
     </link>
     <link name='rotor_0'>
-      <pose>0.24 -0.48 0.15 0 0.261799 0</pose>
+      <pose>0.24 -0.48 0.15 0 0.523599 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.005</mass>
@@ -205,7 +205,7 @@
       </axis>
     </joint>
     <link name='rotor_1'>
-      <pose>-0.27 0.48 0.15 0 0.261799 0</pose>
+      <pose>-0.27 0.48 0.15 0 0.523599 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.005</mass>
@@ -268,7 +268,7 @@
       </axis>
     </joint>
     <link name='rotor_2'>
-      <pose>0.24 0.48 0.15 0 0.261799 0</pose>
+      <pose>0.24 0.48 0.15 0 0.523599 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.005</mass>
@@ -331,7 +331,7 @@
       </axis>
     </joint>
     <link name='rotor_3'>
-      <pose>-0.27 -0.48 0.15 0 0.261799 0</pose>
+      <pose>-0.27 -0.48 0.15 0 0.523599 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.005</mass>
